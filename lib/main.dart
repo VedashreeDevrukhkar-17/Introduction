@@ -14,13 +14,28 @@ class intro extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          child: Column(
-            children: <Widget>[
-              Image(image: AssetImage("")),
-              Text("Vedashree Sudhir Devrukhkar"),
-              Text("vedashreedevrukhkar8@gmail.com"),
-              Text("Dancing"),
-            ],
+          child: Center(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: <Widget>[
+                Image(image: AssetImage("")),
+                Text("Vedashree Sudhir Devrukhkar",
+                    style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic)),
+                Text("vedashreedevrukhkar8@gmail.com",
+                    style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic)),
+                Text("Dancing",
+                    style: TextStyle(
+                        fontSize: 30,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic)),
+              ],
+            ),
           ),
         ),
       ),
