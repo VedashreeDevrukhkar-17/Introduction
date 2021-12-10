@@ -18,7 +18,7 @@ class intro extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
-                Image(image: AssetImage("")),
+                Image.asset("assets/images/vedu.jpg"),
                 Text("Vedashree Sudhir Devrukhkar",
                     style: TextStyle(
                         fontSize: 30,
